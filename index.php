@@ -6,7 +6,7 @@
     </head>
     <body>
         
-        <h1>Welcome to Cynthia's CST-336 website.</h1>
+        <p><center><h1>Cynthia Martinez</h1></center></p>
 
     </body>
 </html>
