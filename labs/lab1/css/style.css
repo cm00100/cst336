@@ -1,0 +1,106 @@
+
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+h1{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    
+}
+         
+        
+.footerbox{
+    max-width:40%;
+    margin: 0 auto;
+}
+
+aside, section
+{
+    float:left;
+}
+
+aside 
+{
+    text-align: left;
+    padding-left: 10px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+}
+
+#Me 
+{
+    border-radius: 100px;
+    
+}
+            
+            
+header, nav, footer, #container
+{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+            
+            
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+            
+            
+nav a:hover, #current
+{
+    border-bottom:2px #c842f4 solid;
+    font-size:2em;
+    transition: .9s;
+}
+
+
+table 
+{
+    margin: 0px auto;
+}
+    
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+    
+td strong 
+{
+    color: white
+}
+
+#tableHeader 
+{
+    background-color: #55125b;
+}
+    
+.tableRow {
+    background-color: #9a1fa5;
+}
+    
+.hobby {
+    color: #ca67d3;
+}
+
+ul{
+                    
+    text-align: left;
+    padding-left: 200px;
+}
+
+footer
+{
+    color: #896189;
+}
