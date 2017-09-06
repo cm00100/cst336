@@ -4,7 +4,7 @@ body{
     background-color: #212121;
     font-family: 'Quicksand', sans-serif;
     color: white;
-    size: 
+    
    
 }
 
@@ -15,14 +15,14 @@ h1{
     margin-bottom: 0px;
     
 }
+
+
+hr{
+    width: 100%;
+}
          
         
-.footerbox{
-    max-width:40%;
-    margin: 0 auto;
-    
-  
-}
+
 
 
 a:link {
@@ -131,9 +131,15 @@ ul{
     padding-left: 30px;
 }
 
+img{
+    display: block;
+    margin: 0 auto;
+}
+
 footer
 {
     color: #666;
+    text-align: center;
     background-color: #3a3838;
     margin-top:25px;
     padding-top: 15px;
@@ -150,6 +156,7 @@ footer
 footer {
     background-color: #3a3838;
     color: #666;
+    text-align: center;
     font-size:.8em;
     margin-top:25px;
     padding-top: 15px;
