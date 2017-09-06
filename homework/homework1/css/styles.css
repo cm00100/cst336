@@ -4,6 +4,7 @@ body{
     background-color: #212121;
     font-family: 'Quicksand', sans-serif;
     color: white;
+    size: 
    
 }
 
@@ -23,25 +24,27 @@ h1{
   
 }
 
-aside, section
-{
-    float:left;
+
+a:link {
+    color: gray;
 }
 
-aside 
-{
-    text-align: left;
-    padding-left: 10px;
-    padding-top:  50px;
-    width:200px;
-    font-size: 1.3em;
+
+a:visited {
+    color: white;
 }
 
-#Me 
-{
-    border-radius: 100px;
-    
+
+a:hover {
+    color: hotpink;
 }
+
+
+a:active {
+    color: blue;
+}
+
+
             
             
 header, nav, footer, #container
@@ -75,11 +78,21 @@ nav a:hover, #current
 #container
 {
     background-color: black;
-    
-   
+    font-size: 18px;
     padding: 25px;
     width: 50%;
     margin: 0 auto;
+    
+}
+
+
+#spacer
+{
+    padding: 25px;
+    height:20%;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
     
 }
 
@@ -100,21 +113,22 @@ td strong
 
 #tableHeader 
 {
-    background-color: #55125b;
+    background-color: #333;
 }
     
 .tableRow {
-    background-color: #9a1fa5;
+    background-color: #333;
 }
     
-.hobby {
-    color: #ca67d3;
+.info {
+    color: #87abe5;
+    
 }
 
 ul{
                     
     text-align: left;
-    padding-left: 200px;
+    padding-left: 30px;
 }
 
 footer
@@ -146,3 +160,4 @@ footer {
     width:100%;
 
 }}
+
