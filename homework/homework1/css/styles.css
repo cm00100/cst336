@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: #212121;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+   
+}
+
+h1{
+    color: white;
+    font-family: 'Jura', cursive;;
+    font-size: 4em;
+    margin-bottom: 0px;
+    
+}
+         
+        
+.footerbox{
+    max-width:40%;
+    margin: 0 auto;
+    
+  
+}
+
+aside, section
+{
+    float:left;
+}
+
+aside 
+{
+    text-align: left;
+    padding-left: 10px;
+    padding-top:  50px;
+    width:200px;
+    font-size: 1.3em;
+}
+
+#Me 
+{
+    border-radius: 100px;
+    
+}
+            
+            
+header, nav, footer, #container
+{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+            
+            
+nav a{
+   
+    overflow: hidden;
+
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+            
+            
+nav a:hover, #current
+{
+    background-color: #3a3838;
+    color: #eaeaea;
+}
+
+
+#container
+{
+    background-color: black;
+    
+   
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+table 
+{
+    margin: 0px auto;
+}
+    
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+    
+td strong 
+{
+    color: white
+}
+
+#tableHeader 
+{
+    background-color: #55125b;
+}
+    
+.tableRow {
+    background-color: #9a1fa5;
+}
+    
+.hobby {
+    color: #ca67d3;
+}
+
+ul{
+                    
+    text-align: left;
+    padding-left: 200px;
+}
+
+footer
+{
+    color: #666;
+    background-color: #3a3838;
+    margin-top:25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+  
+}
+
+
+@media only screen and (max-width: 767px){
+footer {
+    background-color: #3a3838;
+    color: #666;
+    font-size:.8em;
+    margin-top:25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position:static;
+    left:0;
+    bottom:0;
+    width:100%;
+
+}}
