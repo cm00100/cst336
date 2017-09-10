@@ -20,7 +20,7 @@
             ?> 
             
             <form>
-                <input type="submit" value="Spin it!"/>
+                <input type="submit" value="Spin!"/>
             </form>
         
         
