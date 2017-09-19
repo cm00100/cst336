@@ -1,0 +1,17 @@
+body
+{
+    background-color: #fff;
+    
+}
+
+
+#content
+{
+    font-family: 'Baloo Bhaina', cursive;
+    color: #fff;
+    background-color: #000;
+    width:600px;
+    height:500px;
+    position:relative;
+    margin:0 auto;
+}
