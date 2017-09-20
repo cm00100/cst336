@@ -1,5 +1,8 @@
    <?php
         
+        
+        /*
+        
         for ($i = 0; $size <= 20; $size++)
         {
 
@@ -19,11 +22,12 @@
     
          echo "<p>";
          
-         
+         */
          
          
         $numbers = array(); 
-         
+        $nums1 = array();
+        $nums2 = array();
          
          
          
@@ -34,11 +38,29 @@
             for ($j = 1; $j <= 5; $j++)
             {
               $randomValue = rand(0,2);
-              $number[$i][$j] = $randomValue;
               
-              
-                echo "     $randomValue     ";
-              
+   
+                 if ($randomValue == 0)
+                 {
+                    echo "  ";   
+                 }
+                 
+                 
+                 else
+                 {
+                     
+                     if($randomValue == 1)
+                     {
+                        $nums1[$i][$j] = $randomValue;   
+                     }
+                     else if($randomValue = 2)
+                     {
+                        $nums2[$i][$j] = $randomValue;   
+                     }
+                         
+                  //$numbers[$i][$j] = $randomValue;
+                  echo "  $randomValue  ";
+                 }
             
                 
             }
@@ -48,35 +70,51 @@
         
         echo "<p>";
         
+       
+       
+       
+     
+   
+    
+        echo "<p>Count: </p>";
         
         
-       for ($i = 1; $i <= 5; $i++)
-        {
-
-
-            for ($j = 1; $j <= 5; $j++)
-            {
-             
-              echo $number[$i][$j];
-              
-              
-              
-            
-                
-            }
-            echo "<br>";
-          
-        }
-        
-         
        
         
         
-        if($randomValue > $randomValue)
+        
+
+        $count1 = 0;
+        $count2 = 0;
+        
+        foreach( $nums1 as $type1)
         {
-            
-             echo "<h2>$randomValue wins! </h2>";  
+            $count1 += count( $type1);  
         }
+        
+        
+        foreach( $nums2 as $type2)
+        {
+            $count2 += count( $type2);
+        }
+        
+        
+        if ($count1 > $count2)
+        {
+            echo "One wins!";   
+        }
+        else if($count2 > $count1)
+        {
+            echo "Two wins!";
+        }
+        else if($count1 == $count2)
+        {
+                echo "Tie!";   
+        }
+        
+
+         
+       
         
         
         
