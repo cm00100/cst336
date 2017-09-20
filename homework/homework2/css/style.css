@@ -2,18 +2,86 @@ body
 {
     background-color: #000;
     color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
     
 }
 
 
+
+
 #content
 {
-    font-family: 'Baloo Bhaina', cursive;
-    color: #fff;
-    font-size: 25px;
-    background-color: #000;
-    width:600px;
-    height:500px;
+    background: linear-gradient(to bottom, #660066 0%, #9900cc 91%);  
+    height: 420px;
+    width: 39%;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    padding: 20px;
+    margin-top: 0px;    
     position:relative;
-    margin:0 auto;
+    
 }
+
+#button
+{
+padding: 35px 10px 10px 25px;    
+}
+
+
+#playerInfo
+{
+    height: 210px;
+    width: 20%;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    top: 150px;
+    left: 60px;
+    position:absolute;
+}
+
+#playerInfo2
+{
+    height: 100px;
+    width: 20%;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    top: 420px;
+    left: 60px;
+    position:absolute;
+}
+
+
+input[type=submit] {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #833ba0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+input[type=submit]:hover 
+{
+    background-color:#5d2972;
+}
+
+input[type=submit]:active 
+{
+  background-color: #421b51;
+  box-shadow: 0 5px #333232;
+  transform: translateY(4px);
+
+}
+

@@ -1,6 +1,5 @@
    <?php
         
-        
          
         $numbers = array();
         $nums1 = array();
@@ -36,7 +35,7 @@
                      }
                     
                     $numbers[$i][$j] = $randomValue;
-                    echo "  $randomValue  ";
+                    //print_r($numbers);
                  }
             
                 
@@ -45,78 +44,103 @@
           
         }
         
-        echo "<p>";
-        
+      
        
        
+      echo " <center>";
        
-       
+        echo "<div id='content'>";
        
         for ($i = 1; $i <= 5; $i++)
         {
 
             for ($j = 1; $j <= 5; $j++)
             {
-              
+                
+               
               if($numbers[$i][$j] == 1)
               {
                   
-                    echo '<img src="img/blue.png" alt="blue" width="50"/>';
+                    echo '<img src="img/blue.png" alt="blue" width="80"/>';
+                    echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";  
  
               }
               if($numbers[$i][$j] == 2)
               {
                   
-                    echo '<img src="img/purp.png" alt="purple" width="50"/>';
+                    echo '<img src="img/purp.png" alt="purple" width="80"/>';
+                    echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; 
 
               }
-               
                       
             }
-            echo "<br>";          
+           
+            echo "<br>";
+             
         }
         
         echo "<p>";
+
+       echo "</div>";
        
        
-   
+       
+       
+       echo "<div id='button'> 
+                <form>
+                    <input type='submit' value='Play!'/>
+                </form>
+            </div>";
+       
+       
+       
+       
+       
+        echo "<div id='playerInfo'>";
 
-
+         echo "<h3>Score</h3>";
+        
+        
         
         foreach( $nums1 as $type1)
         {
-            $count1 += count( $type1);  
+            $count1 += count( $type1); 
+
         }
         
-          echo "<p> Blue (player 1): $count1 </p>";
+        echo "<p> Blue: $count1 </p>";
+
         
         foreach( $nums2 as $type2)
         {
             $count2 += count( $type2);
         }
         
+     
         
-      
+        echo "<p> Pink: $count2 </p>";
         
-        echo "<p> Purple (player 2): $count2 </p>";
+        echo "</div>";
         
+        echo "<div id='playerInfo2'>";
+
         
         if ($count1 > $count2)
         {
-            echo "Blue wins!";   
+            echo "<h2>Blue wins!</h2>";   
         }
         else if($count2 > $count1)
         {
-            echo "Purple wins!";
+            echo "<h2>Pink wins!</h2>";
         }
         else if($count1 == $count2)
         {
-                echo "Tie!";   
+                echo "<h2>Tie!</h2>";   
         }
         
-
-         
-
+        echo"</div";
+      
+        echo "</center>";
         
        
          
