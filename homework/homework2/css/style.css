@@ -3,9 +3,9 @@ body
     background-color: #000;
     color: #fff;
     font-family: Verdana, Geneva, sans-serif;
+   min-width: 960px !important;
     
 }
-
 
 
 
@@ -22,9 +22,10 @@ body
     
 }
 
-#button
+#playButton
 {
-padding: 35px 10px 10px 25px;    
+   
+    text-align: center;
 }
 
 
