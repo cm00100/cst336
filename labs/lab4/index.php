@@ -4,13 +4,13 @@
 
     if(isset($_GET['keyword'])) {
      
-     //  echo "Keyword typed: " . $_GET['keyword'];
+     
         
         include 'api/pixabayAPI.php';
         
         $keyword = $_GET['keyword'];
         
-        if (!empty($_GET['category'])) {  //User selected a category
+        if (!empty($_GET['category'])) { 
              
             $keyword = $_GET['category'];
         }
@@ -89,9 +89,9 @@
         <br /><br />
         
         <?php
-            if(!isset($_GET['keyword'])) {  //form has not been submitted
+            if(!isset($_GET['keyword'])) {  
                 echo "<h2>Type a keyword to display a slideshow with random images from Pixabay.com</h2>";
-            } else {   //form has been submitted
+            } else {  
                 
                  if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
             
