@@ -2,15 +2,16 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:#000;
     }
     
     input {
         font-size: 3em;
-        color: black;
+        color: #000;
     }
     
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+         color: #000;
     }
