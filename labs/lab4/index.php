@@ -95,15 +95,12 @@
                 
                  if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
             
-                        echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
+                        echo "<h2 style='color:red'> Oops! You must enter a keyword or category. </h2>";
                         return;
                         exit;
             
                  }
-                
-                
-                
-                
+                       
         ?>
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
