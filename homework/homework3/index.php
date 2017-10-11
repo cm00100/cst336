@@ -142,7 +142,7 @@ There is an external CSS with at least 20 rules	10pts
         </form>
 
         <p></p>
-        <img src="../img/buddy_verified.png" alt="Buddy Verified" style="width:150px;">
+        <img src="img/buddy_verified.png" alt="Buddy Verified" style="width:150px;">
 
             
             
