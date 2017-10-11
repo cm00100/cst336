@@ -30,7 +30,7 @@ There is an external CSS with at least 20 rules	10pts
       
              <?php
         $nameErr = $ageErr = $emailErr = $jobErr = $websiteErr = "";
-        $name = $age = $email = $job = $comment = $website = "";
+        $name = $age = $email = $job = $bio = $website = "";
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
          
@@ -70,22 +70,17 @@ There is an external CSS with at least 20 rules	10pts
             $website = test_input($_POST["website"]);
           }
         
-          if (empty($_POST["comment"])) {
-            $comment = "";
+          if (empty($_POST["bio"])) {
+            $bio = "";
           } else {
-            $comment = test_input($_POST["comment"]);
+            $bio = test_input($_POST["bio"]);
           }
         
           if (empty($_POST["job"])) {
             $jobErr = "Job selection is required";
           } else {
             $job = test_input($_POST["job"]);
-            
-            if($job == "clown")
-            {
-                  echo "You will be a clown!";
-            }
-            
+               
           }
         }
         
@@ -100,8 +95,9 @@ There is an external CSS with at least 20 rules	10pts
         ?>
       
 
-        <h2>Circus Application Form</h2>
+        <h1>Circus Application Form</h1>
         <p><span class="error">* required field.</span></p>
+        
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
           Name: <input type="text" name="name">
           <span class="error">* <?php echo $nameErr;?></span>
@@ -131,7 +127,7 @@ There is an external CSS with at least 20 rules	10pts
           <select>
             <option name="job" value=""></option>
             <option name="job"  value="acrobat">Acrobat</option>
-            <option name= "job" value="clown">Clown</option>
+            <option value="../img/clown.jpg" style="background-image:url(../img/clown.jpg);">Clown</option>
             <option name= "job" value="bigtop">Big Top</option>
             <option name= "job" value="bedofnails">Bed of Nails</option>
             <option name= "job" value="contor">Contortionist</option>
@@ -146,7 +142,8 @@ There is an external CSS with at least 20 rules	10pts
         </form>
 
           
-            
+        <img src="img/buddy-verified" alt="Buddy Verified" style="width:150px;">
+
             
             
        
