@@ -141,8 +141,8 @@ There is an external CSS with at least 20 rules	10pts
           <input type="submit" name="submit" value="Submit">  
         </form>
 
-          
-        <img src="img/buddy-verified" alt="Buddy Verified" style="width:150px;">
+        <p></p>
+        <img src="img/buddy-verified.png" alt="Buddy Verified" style="width:150px;">
 
             
             
