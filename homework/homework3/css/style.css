@@ -1,0 +1,37 @@
+body
+{
+     background-color: #000;
+     background-image: url("../img/circus.jpg");
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.error 
+{
+    color: #FF0000;
+    
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #818284;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+input[type=submit]:hover 
+{
+    background-color:#555656;
+}
+
