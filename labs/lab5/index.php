@@ -85,6 +85,7 @@ function displayDevices(){
 <!DOCTYPE html>
 <html>
     <head>
+         <link  href="css/style.css" rel="stylesheet" type="text/css" />
         <title>Lab 5: Device Search </title>
     </head>
     <body>
