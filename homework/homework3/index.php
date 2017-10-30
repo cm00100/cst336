@@ -99,6 +99,9 @@ There is an external CSS with at least 20 rules	10pts
         <p><span class="error">* required field.</span></p>
         
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+          
+          
+          
           Name: <input type="text" name="name">
           <span class="error">* <?php echo $nameErr;?></span>
           <br><br>
