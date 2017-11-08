@@ -10,7 +10,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+    </head>
+    
+    <body>
         <script>
             var selectedWord = "";
             var selectedHint = "";
@@ -67,20 +69,85 @@
             
         </script>
         
-    </head>
-    <body>
     
-    <div class='container text-center'>
-        <header>
-            <h1>Hangman</h1>
-            </header>
-            <div id="word"></div>
-            <div id="letters"></div>
+    
+        <div class='container text-center'>
+            <header>
+                <h1>Hangman</h1>
+                </header>
+                <div id="word"></div>
+                <div id="letters"></div>
+                
+                <input type="text" id="letterbox" />
+                <button id="letterBtn" onclick="updateImage()">Submit</button>
+        </div>
             
-            <div id="man">
+        <div id="man">
             <img src="img/stick_0.png" id="hangImg">
-            </div>
+        </div>
     </div>
+    
+    <script>
+    
+    function updateImage()
+    {
+       // document.getElementById("man").innerHTML = "<img src='img/stick_5.png'>"
+       $("img").attr("src", "img/stick_3.png");
+    }
+    
+    var selectedWord = "";
+    var selectedHint = "";
+    var board = "";
+    var remainingGuesses = 6;
+    var words = ["snake", "monkey", "beetle", "octopus", "horse"];
+    var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
+                'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
+                'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+    
+    startGame();
+    
+    function startGame()
+    {
+      pickWord();
+      initBoard();
+      updateBoard();
+      createLetters();
+    }
+    
+    function pickWord()
+    {
+        var randomInt = Math.floor(Math.random() * words.length);
+        selectedWord = words[randomInt];
+    }
+    
+    function updateBoard()
+    {
+        for(var letter of board)
+        {
+            document.getElementById("word").innerHTML += letter + " ";   
+        }
+    }
+    
+    function initBoard()
+    {
+        for(var i = 0; i < selectedWord.length; i++)
+        {
+            board += "_";   
+        }
+        
+        console.log(board);
+    }
+    
+    function createLetters()
+    {
+        for(var letter of alphabet)
+        {
+            $("#letters").append("<button class='letter' id='"+letter+"' > " + letter + "</button>");   
+        }
+    }
+    
+    </script>
 
     </body>
 </html>

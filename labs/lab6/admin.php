@@ -24,6 +24,9 @@ function displayUsers() {
     return $users;
 }
 
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
