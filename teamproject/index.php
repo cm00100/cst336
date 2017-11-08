@@ -2,7 +2,6 @@
 session_start();
 include 'dbConnection.php';
 $conn = getDatabaseConnection();
-
 // Order by Price function
 function orderPrice($count) {
     global $conn;
@@ -17,7 +16,6 @@ function orderPrice($count) {
     $candies = $statement->fetchAll(PDO::FETCH_ASSOC);
     return $candies;
 }
-
 // Order by Calories function
 function orderCal($count) {
     global $conn;
@@ -32,7 +30,6 @@ function orderCal($count) {
     $candies = $statement->fetchAll(PDO::FETCH_ASSOC);
     return $candies;
 }
-
 // Show Only Type function
 function showType($count2) {
     global $conn;
@@ -60,13 +57,11 @@ function showType($count2) {
         $sql = "SELECT * FROM candy 
         ORDER BY candyName ASC";
     }
-
     $statement = $conn->prepare($sql);
     $statement->execute();
     $candies = $statement->fetchAll(PDO::FETCH_ASSOC);
     return $candies;
 }
-
 // Display Candy function
 function displayCandy() {
     global $conn;
@@ -174,7 +169,7 @@ function displayCandy() {
             // Displays Candy Shop's inventory
             foreach($candies as $candy) {
                 $candyname = $candy['candyName'];
-                echo "<h3><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h3>";
+                echo "<h2><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h2>";
                 echo "Calories: ".$candy['caloriesId'];
                 echo str_repeat("&nbsp;", 3); 
                 echo " Price: $".$candy['priceId'];
@@ -183,10 +178,10 @@ function displayCandy() {
                          <input type='hidden' name='candyId' value='".$candy['candyId']."' />
                          <input type='submit' value='Add To Cart'>
                       </form>";
-                echo "<br>";
                 echo"<hr>";
             }
             ?>
+            </div>
         </div>
     </body>   
 </html>
