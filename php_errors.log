@@ -38,3 +38,432 @@
 [13-Sep-2017 19:47:10 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/cst336/practice/arrays.php on line 46
 [13-Sep-2017 19:47:10 UTC] PHP Stack trace:
 [13-Sep-2017 19:47:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/arrays.php:0
+[05-Dec-2017 23:40:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[05-Dec-2017 23:41:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[05-Dec-2017 23:41:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[05-Dec-2017 23:42:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[05-Dec-2017 23:42:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[05-Dec-2017 23:44:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'counties.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/loginProcess.php on line 29
+[06-Dec-2017 03:54:23 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 74
+[06-Dec-2017 03:54:23 UTC] PHP Stack trace:
+[06-Dec-2017 03:54:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[06-Dec-2017 03:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/index.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/index.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/index.php(45): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/index.php on line 16
+[06-Dec-2017 03:56:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:56:03 UTC] PHP Stack trace:
+[06-Dec-2017 03:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:56:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:56:06 UTC] PHP Stack trace:
+[06-Dec-2017 03:56:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:56:50 UTC] PHP Stack trace:
+[06-Dec-2017 03:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:56:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:56:53 UTC] PHP Stack trace:
+[06-Dec-2017 03:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:57:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:57:38 UTC] PHP Stack trace:
+[06-Dec-2017 03:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:59:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:59:23 UTC] PHP Stack trace:
+[06-Dec-2017 03:59:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 03:59:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 03:59:55 UTC] PHP Stack trace:
+[06-Dec-2017 03:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 04:02:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 04:02:35 UTC] PHP Stack trace:
+[06-Dec-2017 04:02:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 04:02:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 47
+[06-Dec-2017 04:02:39 UTC] PHP Stack trace:
+[06-Dec-2017 04:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 04:03:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM album
+            WHERE album_title' at line 1' in /home/ubuntu/workspace/cst336/finalproject/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/index.php(43): displayRecords()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/index.php on line 15
+[06-Dec-2017 04:04:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM album
+            ORDER BY album_title' at line 1' in /home/ubuntu/workspace/cst336/finalproject/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/index.php(43): displayRecords()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/index.php on line 15
+[06-Dec-2017 04:05:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 46
+[06-Dec-2017 04:05:55 UTC] PHP Stack trace:
+[06-Dec-2017 04:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[06-Dec-2017 04:07:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 76
+[06-Dec-2017 04:07:24 UTC] PHP Stack trace:
+[06-Dec-2017 04:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[06-Dec-2017 04:07:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(57): getUserInfo('10')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 32
+[06-Dec-2017 04:08:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 04:08:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 04:10:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 04:11:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 04:12:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(102): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 19
+[06-Dec-2017 04:27:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 86
+[06-Dec-2017 04:27:56 UTC] PHP Stack trace:
+[06-Dec-2017 04:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/addRecord.php:0
+[06-Dec-2017 04:32:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price' in 'field list'' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:34:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'albumId' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'albumId' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:36:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'albumId' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:39:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:39:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:40:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_year' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:42:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:42:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:43:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:51:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'priceId' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 04:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:03:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:03:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:04:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:05:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:09:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:12:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:12:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(57): getUserInfo('12')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 32
+[06-Dec-2017 05:12:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'musicshop.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(57): getUserInfo('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 32
+[06-Dec-2017 05:17:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:19:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:19:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:20:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_genre' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:22:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'album_title' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:30:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:30:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:31:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 05:32:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'artist_id' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 51
+[06-Dec-2017 06:04:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/finalproject/index.php on line 82
+[06-Dec-2017 06:40:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 06:43:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 06:43:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 06:45:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 06:51:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 06:52:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 44
+[06-Dec-2017 07:05:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(49): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 49
+[06-Dec-2017 07:51:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/cst336/finalproject/admin.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/admin.php(79): PDO->query('SELECT name FRO...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 79
+[06-Dec-2017 07:52:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/cst336/finalproject/admin.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/admin.php(79): PDO->query('SELECT name FRO...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 79
+[06-Dec-2017 07:54:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/cst336/finalproject/admin.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/admin.php(79): PDO->query('SELECT name FRO...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 79
+[06-Dec-2017 08:16:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Metallica' for key 'artist_name'' in /home/ubuntu/workspace/cst336/finalproject/addRecord.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addRecord.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addRecord.php on line 57
+[06-Dec-2017 08:51:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(46): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 08:59:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(46): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:00:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:04:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:04:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:04:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:09:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:09:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 09:09:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(44): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 11:56:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateRecord.php(72): getAlbumInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateRecord.php on line 21
+[06-Dec-2017 12:01:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:02:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:03:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:03:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:09:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:11:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:13:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
+[06-Dec-2017 12:14:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteRecord.php on line 9
