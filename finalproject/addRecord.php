@@ -83,12 +83,19 @@ if (isset($_GET['addRecordForm'])){
         <legend> Add New Record </legend>
         
         <form>
+            Artist Name: <input type="text" name="artist_name" required/> <br>
             Album Name: <input type="text" name="album_title" required /> <br>
             Album Genre: <input type="text" name="album_genre"/> <br>
             Album Year: <input type="text" name="album_year" required/> <br>
-            Artist: <input type="text" name="artist_name" required/> <br>
-            Price: <input type="text" name="priceId"/> <br>
-            Condition: <input type="text" name="album_condition" required/> <br>
+            Price: <input type="text" name="priceId" required/> <br>
+            Condition:  <select name="album_condition" required>
+                        <option value=""> Select One </option>
+                        <option>New</option>
+                        <option>Used</option>
+                    </select> 
+            <br />
+            
+            
             
                 <input type="submit" name="addRecordForm" value="Add Record!"/>
         </form>

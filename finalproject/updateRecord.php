@@ -105,12 +105,16 @@ if (isset($_GET['albumId'])) {
         <form>
        
             <input type="hidden" name="albumId" value="<?=$albumInfo['albumId']?>" />
+            Artist Name: <input type="text" name="artist_name" required value="<?=$albumInfo['artist_name']?>" /> <br>
             Album Name: <input type="text" name="album_title" required value="<?=$albumInfo['album_title']?>" /> <br>
             Album Genre: <input type="text" name="album_genre" required value="<?=$albumInfo['album_genre']?>"/> <br>
             Album Year: <input type="text" name="album_year" required value="<?=$albumInfo['album_year']?>"/> <br>
-            Artist Name: <input type="text" name="artist_name" required value="<?=$albumInfo['artist_name']?>" /> <br>
             Price: <input type="text" name="priceId" required value="<?=$albumInfo['priceId']?>"/> <br>
-            Condition: <input type="text" name="album_condition" required value="<?=$albumInfo['album_condition']?>"/> <br>
+            Condition:  <select name="album_condition" required value="<?=$albumInfo['album_condition']?>"/> >
+                        <option value=""> Select One </option>
+                        <option>New</option>
+                        <option>Used</option>
+                    </select>  <br>
            
            
            
