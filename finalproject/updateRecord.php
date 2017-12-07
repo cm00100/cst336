@@ -91,16 +91,16 @@ if (isset($_GET['albumId'])) {
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
 
-        <title> Admin: Updating User </title>
+        <title> Admin: Updating Album </title>
     </head>
     <body>
 
     <h1> Admin Section </h1>
-    <h2> Updating User Info </h2>
+    <h2> Updating Album Information </h2>
 
     <fieldset>
         
-        <legend> Update User </legend>
+        <legend> Update Album </legend>
         
         <form>
        

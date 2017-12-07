@@ -45,14 +45,25 @@ function getArtistInfo(){
     </head>
     <body>
         
-       <h1> Music Records</h1>
+       <h1> Music Records Shop</h1>
         
         <p><button><a href="login.php">Admin Login</a></button></p>
 
         
+        <form action="form.php" method="post"> 
+            Search: <input type="text" name="term" /><br /> 
+            <input type="submit" value="Submit" /> 
+        </form> 
+        
+        
          <?php
+         
+        
+
         
         $records = displayRecords();
+        
+        
      
         
         foreach($records as $record) {

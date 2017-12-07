@@ -33,6 +33,7 @@ function displayRecords() {
     <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <title>Admin Page </title>
         <script>
@@ -40,7 +41,7 @@ function displayRecords() {
             function confirmDelete(album) {
                 
                 
-                return confirm("Are you sure you want to delete " + album + "?");
+                return confirm("Are you sure you want to delete " + album + "? Note: Artist will still remain in database.");
                 
             }
             
@@ -65,6 +66,25 @@ function displayRecords() {
             <input type="submit" value="Logout" />
             
         </form>
+        
+         <h2>REPORTS</h2>
+        
+          
+        
+        
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $.ajax({url: "report.php", success: function(result){
+                        $("#div1").html(result);
+                    }});
+                });
+            });
+        </script>
+        
+        <div id="div1"></div>
+
+        <button>Get Reports</button>
         
         
         <br /><br />
@@ -93,14 +113,7 @@ function displayRecords() {
         
         ?>
         
-        
-        <h2>REPORTS</h2>
-        
-        Total of Artists:
-        
-        Average Price of Albums:
-        
-        Total of Albums:         
+     
         
     </body>     
 </html>
