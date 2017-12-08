@@ -826,3 +826,5 @@ Stack trace:
 [08-Dec-2017 08:24:17 UTC] PHP Fatal error:  Call to undefined function displayAlbums() in /home/ubuntu/workspace/cst336/finalproject/index.php on line 118
 [08-Dec-2017 08:24:17 UTC] PHP Stack trace:
 [08-Dec-2017 08:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/index.php:0
+[08-Dec-2017 10:43:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/cst336/finalproject/index.php on line 59
+[08-Dec-2017 11:02:25 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/finalproject/index.php on line 59

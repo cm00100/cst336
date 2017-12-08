@@ -1,7 +1,35 @@
 body
 {
-     background-color: #252626;
-     color: #fff;
+     background-color:#353638;
+     color: #000;
      
+}
+
+#search-wrap {
+    background: #000;
+    width: 1000px;
+    height: 150px;
+    color: #fff;
+    padding: 25px 25px;
+    margin:0px auto;
+}
+
+form{
+      display: inline;
+      width: 100px;
+}
+
+#catalog
+{
+    background: #fff;
+    width: 1000px;
+    color: #000;
+    padding: 25px 20px;
+    margin:0px auto;
+}
+
+#showAll{
+     padding: 5px 20px;
+     margin:0px auto;
 }
 

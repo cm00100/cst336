@@ -50,16 +50,11 @@ function displayRecords() {
     </head>
     <body>
 
-        <h1> ADMIN PAGE </h1>
-        <h2> Welcome <?=$_SESSION['username']?>! </h2>
+       
+     
         
-        <hr>
-        
-        <form action="addRecord.php">
-            
-            <input type="submit" value="Add New Album" />
-            
-        </form>
+       
+       <div id="logout">
         
           <form action="logout.php">
             
@@ -67,7 +62,8 @@ function displayRecords() {
             
         </form>
         
-         <h2>REPORTS</h2>
+        </div>
+        
         
           
         
@@ -82,9 +78,8 @@ function displayRecords() {
             });
         </script>
         
-        <div id="div1"></div>
+        
 
-        <button>Get Reports</button>
         
         
         <br /><br />
@@ -93,15 +88,18 @@ function displayRecords() {
         
         
         
-         <form action="" method="post">  
-        Search Artist: <input type="text" name="search" /><br />  
-        <input type="submit" value="Submit" />  
-        </form> 
+        <div id="search-wrap">
+
+            <form action="" method="post">  
+            Search Artist: <input type="text" name="search" />  
+            <input type="submit" value="Submit" />  
+            </form> 
+            <p>
+             <h2> Welcome <?=$_SESSION['username']?>! </h2>
+            
+        </div>
         
-         <form action="" method="post">  
-        <input type="submit" value="Show All Records" />  
-        </form> 
-        
+    
          
         
         <p></p>
@@ -111,7 +109,21 @@ function displayRecords() {
         
          <?php
          
+          echo"<div id='catalog'>";
         
+        echo"   
+        <form action='' method='post'>   
+        <input type='submit' value='Show All Records' />  
+        </form>
+        ";
+        
+        echo" <form action='addRecord.php'>
+            
+            <input type='submit' value='Add New Album' />
+            
+        </form>";
+        
+        echo"  <button>Get Reports</button><div id='div1'></div>";
 
         
         $search_value=$_POST["search"];
@@ -121,8 +133,23 @@ function displayRecords() {
         $stmt = $conn->query($sql);	
             
         while($record=$stmt->fetch()){
-            echo $record['artist_name'] . '  ' . $record['album_title'] . "  " . $record['album_year']  . '  ' . $record['album_condition']. '  $' . $record['priceId'];
-        
+            
+            
+             echo "<strong>" . $record['album_title'] ."</strong>";
+            echo "<br>";
+            echo "by " . $record['artist_name'];
+           echo "<p></p>";
+
+            echo "Release Year: " .$record['album_year'];
+                        echo "<br>";
+
+            echo "Condition: ". $record['album_condition'];
+            echo "<br>";
+            echo "Price: $" . $record['priceId'];
+
+            echo "<p></p>";
+          
+           
             echo "[<a href='updateRecord.php?albumId=".$record['albumId']."'> Update </a> ]";
             //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";
             echo "<form action='deleteRecord.php' style='display:inline' onsubmit='return confirmDelete(\"".$record['album_title']."\")'>
@@ -132,7 +159,10 @@ function displayRecords() {
                 ";
             
                     echo "<br />";
+                      echo "<hr>";
         }
+        
+        echo "</div>"; 
       
         ?>
         
