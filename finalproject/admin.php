@@ -65,7 +65,7 @@ function displayRecords() {
         
         </div>
         
-       <div id="spacer">Music Records Shop <img src="musicrecord.png" width="100"></div>
+       <div id="spacer">Music Record Shop <img src="musicrecord.png" width="100"></div>
 
           
         
