@@ -94,40 +94,44 @@ if (isset($_GET['albumId'])) {
         <title> Admin: Updating Album </title>
     </head>
     <body>
-
-    <h1> Admin Section </h1>
-    <h2> Updating Album Information </h2>
+    <div id="spacer"></div>
+    
+    <div id="otherForms">
 
     <fieldset>
         
-        <legend> Update Album </legend>
+       <p> <legend> Admin: Update Album </legend></p>
         
         <form>
        
             <input type="hidden" name="albumId" value="<?=$albumInfo['albumId']?>" />
-            Artist Name: <input type="text" name="artist_name" required value="<?=$albumInfo['artist_name']?>" /> <br>
-            Album Name: <input type="text" name="album_title" required value="<?=$albumInfo['album_title']?>" /> <br>
-            Album Genre: <input type="text" name="album_genre" required value="<?=$albumInfo['album_genre']?>"/> <br>
-            Album Year: <input type="text" name="album_year" required value="<?=$albumInfo['album_year']?>"/> <br>
-            Price: <input type="text" name="priceId" required value="<?=$albumInfo['priceId']?>"/> <br>
+            <p>Artist Name: <input type="text" name="artist_name" required value="<?=$albumInfo['artist_name']?>" /> </p>
+            <p>Album Name: <input type="text" name="album_title" required value="<?=$albumInfo['album_title']?>" /> </p>
+            <p>Album Genre: <input type="text" name="album_genre" required value="<?=$albumInfo['album_genre']?>"/> </p>
+            <p>Album Year: <input type="text" name="album_year" required value="<?=$albumInfo['album_year']?>"/> </p>
+            <p>Price: <input type="text" name="priceId" required value="<?=$albumInfo['priceId']?>"/> </p>
             Condition:  <select name="album_condition" required value="<?=$albumInfo['album_condition']?>"/> >
                         <option value=""> Select One </option>
                         <option>New</option>
                         <option>Used</option>
                     </select>  <br>
            
+               <p></p>
            
-           
-                <input type="submit" name="updateRecordForm" value="Update Album!"/>
+                <p><input type="submit" name="updateRecordForm" value="Update Album"/></p>
         </form>
         
     </fieldset>
     
-    <form action="admin.php">
+     <form action="admin.php">
             
             <input type="submit" value="Back" />
             
     </form>
+    
+    </div>
+    
+   
 
 
     </body>

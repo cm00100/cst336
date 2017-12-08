@@ -8,7 +8,7 @@ body
 #search-wrap {
     background: #000;
     width: 1000px;
-    height: 150px;
+    height: 30%;
     color: #fff;
     padding: 25px 25px;
     margin:0px auto;
@@ -33,3 +33,22 @@ form{
      margin:0px auto;
 }
 
+#otherForms{
+     
+    background: #fff;
+    width: 500px;
+    height: 50%;
+    color: #000;
+    padding: 40px 55px;
+    text-align: center;
+    margin:0px auto;
+    
+     
+}
+
+#spacer{
+     height: 100px;  
+}
+     
+     
+     

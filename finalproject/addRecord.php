@@ -75,19 +75,19 @@ if (isset($_GET['addRecordForm'])){
     </head>
     <body>
 
-    <h1> Admin Section </h1>
-    <h2> Adding New Records </h2>
-
+    <div id="spacer"></div>
+     <div id="otherForms">
     <fieldset>
         
-        <legend> Add New Record </legend>
+        <p><legend> Admin: Add New Album </legend></p>
         
+       
         <form>
-            Artist Name: <input type="text" name="artist_name" required/> <br>
-            Album Name: <input type="text" name="album_title" required /> <br>
-            Album Genre: <input type="text" name="album_genre"/> <br>
-            Album Year: <input type="text" name="album_year" required/> <br>
-            Price: <input type="text" name="priceId" required/> <br>
+           <p>Artist Name: <input type="text" name="artist_name" required/> </p>
+            <p>Album Name: <input type="text" name="album_title" required /> </p>
+            <p>Album Genre: <input type="text" name="album_genre"/> </p>
+            <p>Album Year: <input type="text" name="album_year" required/> </p>
+            <p>Price: <input type="text" name="priceId" required/> </p>
             Condition:  <select name="album_condition" required>
                         <option value=""> Select One </option>
                         <option>New</option>
@@ -95,19 +95,21 @@ if (isset($_GET['addRecordForm'])){
                     </select> 
             <br />
             
+                <p></p>
             
-            
-                <input type="submit" name="addRecordForm" value="Add Record!"/>
+                <input type="submit" name="addRecordForm" value="Add Album"/>
         </form>
         
     </fieldset>
+    
+    <p></p>
     
      <form action="admin.php">
             
             <input type="submit" value="Back" />
             
         </form>
-
-
+    </div>
+    
     </body>
 </html>

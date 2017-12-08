@@ -6,23 +6,25 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
 
-        <title> Lab 6: Admin Login Page </title>
+        <title> Admin Login </title>
     </head>
     <body>
-        
-       <h1> Admin Login </h1>
+        <div id="spacer"></div>
+       <div id="otherForms">
+       
+       <p><legend>Admin: Login</legend></p>
         
         <form method="POST" action="loginProcess.php">
             
-            Username: <input type="text" name="username"/> <br />
+            <p>Username: <input type="text" name="username"/> <p />
             
-            Password: <input type="password" name="password"/> <br />
+            <p>Password: <input type="password" name="password"/> <p />
             
-            <input type="submit" name="login" value="Login"/>
+            <p><input type="submit" name="login" value="Login"/></p>
             
             
         </form>
-        
+    </div>    
 
     </body>
 </html>
