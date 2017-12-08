@@ -89,15 +89,40 @@ function displayRecords() {
         
         <br /><br />
         
-        <?php
-        
-        $records = displayRecords();
         
         
-        foreach($records as $record) {
+        
+        
+         <form action="" method="post">  
+        Search Artist: <input type="text" name="search" /><br />  
+        <input type="submit" value="Submit" />  
+        </form> 
+        
+         <form action="" method="post">  
+        <input type="submit" value="Show All Records" />  
+        </form> 
+        
+         
+        
+        <p></p>
+       
             
+        
+        
+         <?php
+         
+        
+
+        
+        $search_value=$_POST["search"];
+        
+           
+        $sql="SELECT * FROM album WHERE artist_name LIKE '%$search_value%'";               
+        $stmt = $conn->query($sql);	
+            
+        while($record=$stmt->fetch()){
             echo $record['artist_name'] . '  ' . $record['album_title'] . "  " . $record['album_year']  . '  ' . $record['album_condition']. '  $' . $record['priceId'];
-;
+        
             echo "[<a href='updateRecord.php?albumId=".$record['albumId']."'> Update </a> ]";
             //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";
             echo "<form action='deleteRecord.php' style='display:inline' onsubmit='return confirmDelete(\"".$record['album_title']."\")'>
@@ -106,11 +131,9 @@ function displayRecords() {
                   </form>
                 ";
             
-            echo "<br />";
-            
+                    echo "<br />";
         }
-        
-        
+      
         ?>
         
      
