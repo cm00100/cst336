@@ -13,6 +13,8 @@
         $conn = getDatabaseConnection();
         
         
+        echo"<p></p>";
+        
         echo "Total Artists: ";
        
         $sql = "SELECT COUNT(*)

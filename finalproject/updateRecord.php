@@ -64,7 +64,7 @@ if (isset($_GET['updateRecordForm'])) { //admin has submitted form to update use
     $stmt = $conn->prepare($sql);
     $stmt->execute($artistParameter);
     
-    echo "Record has been updated successfully!";
+    echo "<div id='spacerLog'> Album has been updated successfully! </div>";
 
         
     
@@ -117,19 +117,19 @@ if (isset($_GET['albumId'])) {
                     </select>  <br>
            
                <p></p>
-           
-                <p><input type="submit" name="updateRecordForm" value="Update Album"/></p>
+             </div>
+                <p><center><input type="submit" name="updateRecordForm" value="Update Album"/></center></p>
         </form>
         
     </fieldset>
     
-     <form action="admin.php">
+    <center> <form action="admin.php">
             
             <input type="submit" value="Back" />
             
-    </form>
+    </form></center>
     
-    </div>
+  
     
    
 

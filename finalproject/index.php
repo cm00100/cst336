@@ -15,15 +15,15 @@ $conn = getDatabaseConnection();
     <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
+      
 
 
         <title> Music Records Shop </title>
     </head>
     <body>
         
-       <h1> Music Records Shop</h1>
+       <div id="spacer"><h1> Music Records Shop</h1> </div>
         
-        <p><button><a href="login.php">Admin Login</a></button></p>
         
         <div id="search-wrap">
 
@@ -31,6 +31,8 @@ $conn = getDatabaseConnection();
             Search Artist: <input type="text" name="search" /> 
             <input type="submit" value="Submit" />  
             </form> 
+            <button><a href="login.php">Admin Login</a></button>
+
         </div>
         
      
@@ -43,7 +45,7 @@ $conn = getDatabaseConnection();
          
         echo"<div id='catalog'>";
         
-        echo"   <div id='showAll'>
+        echo"   <div id='adminButtons'>
         <form action='' method='post'>   
         <input type='submit' value='Show All Records' />  
         </form>
@@ -54,6 +56,7 @@ $conn = getDatabaseConnection();
         $sql="SELECT * FROM album WHERE artist_name LIKE '%$search_value%'";               
         $stmt = $conn->query($sql);
 
+        echo "<div id ='albumSection'>";
             
         while($records=$stmt->fetch()){
             echo "<strong>" . $records['album_title'] ."</strong>";
@@ -74,6 +77,8 @@ $conn = getDatabaseConnection();
         }
        
          echo "</div>"; 
+         
+         echo"</div>";
         ?>
 
     </body>

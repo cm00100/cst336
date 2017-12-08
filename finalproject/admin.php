@@ -64,7 +64,8 @@ function displayRecords() {
         
         </div>
         
-        
+                       <div id="spacer"><h1> Music Records Shop</h1></div>
+
           
         
         
@@ -85,17 +86,17 @@ function displayRecords() {
         <br /><br />
         
         
-        
+
         
         
         <div id="search-wrap">
-
+            <p><h2> Welcome, <?=$_SESSION['username']?>! </h2></p>
             <form action="" method="post">  
             Search Artist: <input type="text" name="search" />  
             <input type="submit" value="Submit" />  
             </form> 
             <p>
-             <h2> Welcome <?=$_SESSION['username']?>! </h2>
+            
             
         </div>
         
@@ -111,7 +112,7 @@ function displayRecords() {
          
           echo"<div id='catalog'>";
         
-        echo"   
+        echo" <div id='adminButtons'>  
         <form action='' method='post'>   
         <input type='submit' value='Show All Records' />  
         </form>
@@ -123,7 +124,7 @@ function displayRecords() {
             
         </form>";
         
-        echo"  <button>Get Reports</button><div id='div1'></div>";
+        echo"  <button>Get Reports</button><div id='div1'></div></div>";
 
         
         $search_value=$_POST["search"];
@@ -131,6 +132,8 @@ function displayRecords() {
            
         $sql="SELECT * FROM album WHERE artist_name LIKE '%$search_value%'";               
         $stmt = $conn->query($sql);	
+        
+          echo "<div id ='albumSection'>";
             
         while($record=$stmt->fetch()){
             
@@ -149,9 +152,13 @@ function displayRecords() {
 
             echo "<p></p>";
           
-           
-            echo "[<a href='updateRecord.php?albumId=".$record['albumId']."'> Update </a> ]";
-            //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";
+                      
+            echo "<form action='updateRecord.php' style='display:inline'>
+                     <input type='hidden' name='albumId' value='".$record['albumId']."' />
+                     <input type='submit' value='Update'>
+                  </form>
+                ";
+            
             echo "<form action='deleteRecord.php' style='display:inline' onsubmit='return confirmDelete(\"".$record['album_title']."\")'>
                      <input type='hidden' name='albumId' value='".$record['albumId']."' />
                      <input type='submit' value='Delete'>
@@ -163,6 +170,8 @@ function displayRecords() {
         }
         
         echo "</div>"; 
+                echo "</div>"; 
+
       
         ?>
         

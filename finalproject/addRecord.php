@@ -59,7 +59,7 @@ if (isset($_GET['addRecordForm'])){
   
   
     
-    echo "Record has been added successfully!";
+    echo "<div id='spacerLog'> Album has been added successfully!</div>";
             
 }
 
@@ -96,20 +96,20 @@ if (isset($_GET['addRecordForm'])){
             <br />
             
                 <p></p>
-            
-                <input type="submit" name="addRecordForm" value="Add Album"/>
+             </div>
+                <p><center><input type="submit" name="addRecordForm" value="Add Album"/></center></p>
         </form>
         
     </fieldset>
     
     <p></p>
-    
+    <center>
      <form action="admin.php">
             
             <input type="submit" value="Back" />
             
         </form>
-    </div>
+   </center>
     
     </body>
 </html>
