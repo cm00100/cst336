@@ -15,23 +15,39 @@ $conn = getDatabaseConnection();
     <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
-      
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
 
 
         <title> Music Records Shop </title>
     </head>
     <body>
         
-       <div id="spacer"><h1> Music Records Shop</h1> </div>
+         <div id="adminLogin">
         
+          <form action="login.php">
+            
+            <input type="submit" value="Admin Login" />
+            
+        </form>
+        
+        </div>
+        
+
+       <div id="spacer">Music Records Shop <img src="musicrecord.png" width="100"></div>
+        
+        
+        </br></br>
         
         <div id="search-wrap">
 
             <form action="" method="post">  
             Search Artist: <input type="text" name="search" /> 
-            <input type="submit" value="Submit" />  
+            <input type="submit" value="Submit" /> 
+
             </form> 
-            <button><a href="login.php">Admin Login</a></button>
+            
+
 
         </div>
         
@@ -45,9 +61,10 @@ $conn = getDatabaseConnection();
          
         echo"<div id='catalog'>";
         
+        
         echo"   <div id='adminButtons'>
         <form action='' method='post'>   
-        <input type='submit' value='Show All Records' />  
+        <input type='submit' value='Show All Albums' />  
         </form>
         </div>";
    

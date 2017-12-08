@@ -7,6 +7,8 @@ body
 
 #search-wrap {
     background: #000;
+         font-family: 'Quicksand', sans-serif;
+
     width: 700px;
     height: 40%;
     color: #fff;
@@ -32,6 +34,8 @@ a
 {
     background: #fff;
     width: 700px;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
     color: #000;
     padding: 25px 20px;
     padding-bottom: 60px;
@@ -71,11 +75,12 @@ a
 
 #spacer{
      height: 50px; 
-     
+     font-family: 'Quicksand', sans-serif;
+     font-size: 55px;
      color: #fff;
-     padding-top: 40px;
+     padding-top: 20px;
      padding-bottom: 40px;
-     padding-left: 200px;
+     text-align: center;
 }
 #spacerLog{
      height: 50px; 
@@ -83,6 +88,11 @@ a
      color: #fff;
      padding-top: 40px;
      text-align: center;
+}
+
+#adminLogin{
+      padding-top: 30px;
+      padding-left: 1000px;
 }
 
 

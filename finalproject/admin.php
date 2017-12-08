@@ -34,6 +34,7 @@ function displayRecords() {
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link  href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
         <title>Admin Page </title>
         <script>
@@ -54,7 +55,7 @@ function displayRecords() {
      
         
        
-       <div id="logout">
+       <div id="adminLogin">
         
           <form action="logout.php">
             
@@ -64,7 +65,7 @@ function displayRecords() {
         
         </div>
         
-                       <div id="spacer"><h1> Music Records Shop</h1></div>
+       <div id="spacer">Music Records Shop <img src="musicrecord.png" width="100"></div>
 
           
         
@@ -90,12 +91,13 @@ function displayRecords() {
         
         
         <div id="search-wrap">
-            <p><h2> Welcome, <?=$_SESSION['username']?>! </h2></p>
             <form action="" method="post">  
             Search Artist: <input type="text" name="search" />  
             <input type="submit" value="Submit" />  
             </form> 
-            <p>
+            <p></p>
+            <h2> Welcome, <?=$_SESSION['username']?>! </h2>
+
             
             
         </div>
@@ -111,10 +113,12 @@ function displayRecords() {
          <?php
          
           echo"<div id='catalog'>";
+          
+
         
         echo" <div id='adminButtons'>  
         <form action='' method='post'>   
-        <input type='submit' value='Show All Records' />  
+        <input type='submit' value='Show All Albums' />  
         </form>
         ";
         
