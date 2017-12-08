@@ -673,3 +673,23 @@ Stack trace:
 [06-Dec-2017 21:46:44 UTC] PHP Stack trace:
 [06-Dec-2017 21:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
 [06-Dec-2017 21:46:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/finalproject/form.php:27
+[08-Dec-2017 06:31:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/finalproject/form.php on line 22
+[08-Dec-2017 06:31:09 UTC] PHP Stack trace:
+[08-Dec-2017 06:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
+[08-Dec-2017 06:31:09 UTC] PHP   2. mysql_real_escape_string() /home/ubuntu/workspace/cst336/finalproject/form.php:22
+[08-Dec-2017 06:31:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/cst336/finalproject/form.php on line 22
+[08-Dec-2017 06:31:09 UTC] PHP Stack trace:
+[08-Dec-2017 06:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
+[08-Dec-2017 06:31:09 UTC] PHP   2. mysql_real_escape_string() /home/ubuntu/workspace/cst336/finalproject/form.php:22
+[08-Dec-2017 06:31:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/finalproject/form.php on line 25
+[08-Dec-2017 06:31:09 UTC] PHP Stack trace:
+[08-Dec-2017 06:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
+[08-Dec-2017 06:31:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/finalproject/form.php:25
+[08-Dec-2017 06:31:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/finalproject/form.php on line 25
+[08-Dec-2017 06:31:09 UTC] PHP Stack trace:
+[08-Dec-2017 06:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
+[08-Dec-2017 06:31:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/finalproject/form.php:25
+[08-Dec-2017 06:31:09 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/finalproject/form.php on line 27
+[08-Dec-2017 06:31:09 UTC] PHP Stack trace:
+[08-Dec-2017 06:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/form.php:0
+[08-Dec-2017 06:31:09 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/finalproject/form.php:27

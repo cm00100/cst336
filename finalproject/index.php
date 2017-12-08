@@ -32,6 +32,35 @@ function getArtistInfo(){
 
 }
 
+
+function orderPrice($count) {
+    global $conn;
+    if($count == 1) {
+        $sql = "SELECT * FROM `album` ORDER BY `album`.`priceId` ASC";
+    }
+    else {
+        $sql = "SELECT * FROM `album` ORDER BY `album`.`priceId` DESC"; 
+    }
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    return $records;
+}
+
+function orderArtist($count) {
+    global $conn;
+    if($count == 1) {
+        $sql = "SELECT * FROM `album` ORDER BY `album`.`artist_name` ASC";
+    }
+    else {
+        $sql = "SELECT * FROM `album` ORDER BY `album`.`artist_name` DESC"; 
+    }
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    return $records;
+}
+
 ?>
 
 
@@ -53,15 +82,57 @@ function getArtistInfo(){
         <form action="form.php" method="post"> 
             Search: <input type="text" name="term" /><br /> 
             <input type="submit" value="Submit" /> 
-        </form> 
+        </form>
+        
+        
+        
+         <form action='index.php' style='display:inline' method="get">
+                <input type="submit" name="artist" value="Order by Artist" />
+                <input type="radio" id="ascending1" name="ordering" value="1">
+                <label for="ascending1">Ascending</label>
+                <input type="radio" id="descending1" name="ordering" value="2">
+                <label for="descending1">Descending</label>
+            </form>
+            <br />
+        
+          <form action='index.php' style='display:inline' method="get">
+                <input type="submit" name="price" value="Order by Price" />
+                <input type="radio" id="ascending1" name="ordering" value="1">
+                <label for="ascending1">Lowest Price</label>
+                <input type="radio" id="descending1" name="ordering" value="2">
+                <label for="descending1">Highest Price</label>
+            </form>
+            <br />
+            <form 
+                action='index.php' method="get">
+            </form>
+            
+            
+            
         
         
          <?php
          
         
+            // Sorts Candy Shop's inventory based off Radio Buttons
+            $order = $_GET['ordering'];
+
+           
+            
+           
+            if(isset($_GET['price'])) {
+                $records = orderPrice($order);
+            }
+            else if(isset($_GET['artist'])) {
+                $records = orderArtist($order);
+            }
+            else {
+                $records = displayRecords();
+            }
+            
 
         
-        $records = displayRecords();
+       // $records = displayRecords();
         
         
      
